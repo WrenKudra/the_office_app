@@ -20,14 +20,11 @@ Deployed project - [Live Link to the project]()
 
 - Javascript
 - React
-- JSX
 - CSS
 - Node
 - Express
 - JSON Web Token
 - MongoDB
-- Jest, supertest (for testing) 
-- Helmet
 
 ---
 
@@ -37,9 +34,9 @@ Deployed project - [Live Link to the project]()
 
 Clone or download this repository.
 
-To install the backend of the project cd into the project directory and run npm install and npm start to run the server it will start on port [http://localhost:3500].
+To install the backend of the project cd into the project directory and run 'npm install'. Then 'npm start' to run the server and it will start on port [http://localhost:3500].
 
-To install the frontend of the project cd into the frontend folder and run npm install the npm start to run the project the app will open on port [http://localhost:3000].
+To install the frontend of the project cd into the frontend folder and run 'npm install'. Then 'npm start' to run the project and the app will open on port [http://localhost:3000].
 
 To modify MongoDB URIs, go into the .env file and add your own database. You can also generate your own JWT access token secret through node prompt. e.g. require('crypto').randomBytes(64).toString('hex'). 
 
@@ -105,9 +102,7 @@ The backend will be built using Nodejs and Expressjs. This app will use MongoDB 
 
 1. All users will be registered by either the admin or manager. Authentication will be handled with JSON Web Tokens (JWT) and password stored in the database will be hashed using bcrypt.
 
-2. "Helmet" Express middleware will be used to secure the Express backend to further tighten up security. See [https://www.npmjs.com/package/helmet](https://www.npmjs.com/package/helmet) for details.
-
-3. The Express application also users cors with a list of allowed origins to control access to the api.
+2. The Express application also users cors with a list of allowed origins to control access to the api.
 
 ### Reliability
 

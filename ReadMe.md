@@ -1,6 +1,6 @@
 # The Office App!
 
-![figure 1](screenshots/dash-landingpage.png)
+![figure 1](screenshots/dash-landing.png)
 
 ## Description
 
@@ -47,7 +47,7 @@ To modify MongoDB URIs, go into the .env file and add your own database. You can
 
 When the application loads the user will be directed to the landing page which welcomes the user. The user must click on the Employee login in the bottom left hand corner of the footer. 
 
-![figure 1](screenshots/dash-landingpage.png)
+![figure 1](screenshots/dash-landing.png)
 
 ### Step 2
 

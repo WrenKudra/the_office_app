@@ -1,7 +1,5 @@
 # The Office App!
 
-![figure 1](screenshots/dash-landing.png)
-
 ## Description
 
 This app is a Task Management system for a small group of employees that work at Dunder and Mifflin Paper Company, Scranton. If you have watched the show 'The Office', you will be familiar with the employee names listend in this app. The manager, Michael Scott, assigns tasks to employees, authenticates and saves tasks on MongoDB. Sometimes, well most of the time, he needs his secretary Pam to help him work this app, therefore she has admin rights. The app will also include features that will only be available to the manager and admin users (Michael and Pam) that make it easier to manage tasks, clients and employees with a simple ui and easy navigation to increase workflow. Each employee will be able to login and create tasks or view tasks assigned to them by the admin or manager. The employee is able to view and edit his tasks, but not view or edit other employee's tasks. Only manager and admin users can delete tasks.

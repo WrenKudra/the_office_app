@@ -1,5 +1,6 @@
 import NewNoteForm from './NewNoteForm'
 import { useGetUsersQuery } from '../users/usersApiSlice'
+import PulseLoader from 'react-spinners/PulseLoader'
 import useTitle from '../../hooks/useTitle'
 
 const NewNote = () => {
@@ -11,7 +12,7 @@ const NewNote = () => {
         }),
     })
 
-    // if (!users?.length) return <PulseLoader color={"#FFF"} />
+    if (!users?.length) return <PulseLoader color={"#FFF"} />
 
     const content = <NewNoteForm users={users} />
 
